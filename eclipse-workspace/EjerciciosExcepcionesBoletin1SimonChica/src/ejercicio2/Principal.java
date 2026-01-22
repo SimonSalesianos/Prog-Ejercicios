@@ -26,7 +26,7 @@ public class Principal {
 	                
 	            } catch (TemperaturaInvalidaException e) {
 	            	
-	                System.out.println(e.getMessage());
+	                System.err.println(e.getMessage());
 	                
 	            }
 	        }
